@@ -467,7 +467,8 @@ input {}
 } */
 
 .form-control {
-  margin: 20px;
+  /* margin: 20px; */
+  margin-bottom: 20px;
 }
 
 nav a {

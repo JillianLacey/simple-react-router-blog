@@ -43,11 +43,11 @@ export default class CreatePost extends Component {
     render() {
         let { authorName, blogTitle, blogEntry } = this.state;
         return (
-            <div className="col-lg-5  mx-auto">
+            <div className="col-lg-10  mx-auto">
                 <div className="form-group ">
                     <form onSubmit={this.createPost}>
                         <h2>Create a new post</h2>
-                        <div className="col-12">
+                        <div className="col-7 mx-auto">
                             <input className="form-control" onChange={this.handleInputChange} value={authorName} type="text" name="authorName" placeholder="Enter your name" />
                             <input className="form-control" onChange={this.handleInputChange} value={blogTitle} type="text" name="blogTitle" placeholder="Blog Title" />
                             <textarea className="form-control" onChange={this.handleInputChange} value={blogEntry} type="text" name="blogEntry" placeholder="Blog Entry"></textarea>
